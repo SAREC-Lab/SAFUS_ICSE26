@@ -11,7 +11,7 @@ _submitted to the 48th International Conference on Software Engineering (ICSE) 2
 
 SAFUS is an automated fuzz testing pipeline designed to validate the autonomous behavior of small Uncrewed Aerial Systems (sUAS). By targeting mode transitions and failsafe mechanisms in layered sUAS state machines, SAFUS exposes subtle failures with fuzzing that may arise due to environmental disturbances, timing variability, and RC Input.
 
-This framework enhances software system safety assurance by systematically generating fuzz scenarios, executing tests in simulation, and producing fault trees to aid root cause analysis. 
+This framework enhances software system safety assurance by systematically generating fuzz specifications, executing tests in simulation, and producing fault trees to aid root cause analysis. 
 
 ---
 
@@ -38,7 +38,7 @@ SAFUS addresses this challenge by enabling behaviorally meaningful fuzz testing 
 
 The SAFUS pipeline consists of 8 main phases:
 
-![SAFUS Pipeline Architecture](Figures/pipeline.jpg)
+![SAFUS Pipeline Architecture](Figures/pipeline.png)
 *Figure: High-level SAFUS pipeline architecture.*
 
 
