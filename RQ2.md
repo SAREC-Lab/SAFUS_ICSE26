@@ -1,7 +1,5 @@
 ## RQ2: To what extent can SAFUS detect mode and state-related transition errors in an SuT?
 
-
-
 We identified the following Failures:
 
 ## Fuzz Scenario Templates
