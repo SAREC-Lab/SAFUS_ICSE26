@@ -18,9 +18,9 @@ We identified the following Failures:
 | F6 | Erratic mode changes caused by interference | GPS Noise created interference causing thrashing between `LAND` and `TAKEOFF` modes || ● |
 | F7 | Simulation Error | Simulation Error: Expected to succeed in real-world || ◐ |
 | F8 | PX4 issue within mode | PX4 Issue: Failure to disarm upon landing in `STABILIZED` mode || ◐ |
-| F9 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that Throttle toggling triggers a mode change to `POSCTL`| | ○ |
-| F10 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that `AUTO.LOITER` is handled as `POSCTL` in RotorCraft || ○ |
-| F11 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that `AUTO.LOITER` is handled as `POSCTL` in RotorCraft || ○ |
+| F9 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that Throttle toggling triggers a mode change to `POSCTL`| Decision tree updated| ○ |
+| F10 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that `AUTO.LOITER` is handled as `POSCTL` in RotorCraft |Decision tree updated| ○ |
+| F11 | Missing logic in Decision Tree. Updated to handle `AUTO.LOITER` & throttle toggle correctly in future tests | Decision Tree did not recognize that `AUTO.LOITER` is handled as `POSCTL` in RotorCraft |Decision tree updated| ○ |
 
 **Legend:**  
 ● True positive mode/state related failure  
